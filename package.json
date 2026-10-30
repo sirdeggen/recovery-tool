@@ -1,0 +1,12 @@
+{
+  "name": "recovery-tool",
+  "private": true,
+  "description": "Offline derivation scan for BSV Browser recovery phrases",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@bsv/sdk": "2.8.11",
+    "esbuild": "0.24.0"
+  }
+}
